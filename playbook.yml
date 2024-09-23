@@ -1,0 +1,9 @@
+---
+- name: Configure public and private servers
+  hosts: all
+  roles:
+    - nginx
+    - elasticsearch_kibana
+
+
+
