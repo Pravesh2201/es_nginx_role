@@ -2,7 +2,7 @@
 server {
 
     listen 80;
-    server_name {{ ansible_fqdn }}  # Replace with your actual public IP or domain
+    server_name {{ bastionIP }}  # Replace with your actual public IP or domain
 
     # Proxy for Kibana (port 5601)
 
